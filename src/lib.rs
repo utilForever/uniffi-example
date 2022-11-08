@@ -13,3 +13,5 @@ pub fn mul(a: i64, b: i64) -> i64 {
 pub fn div(a: i64, b: i64) -> i64 {
     a / b
 }
+
+uniffi_macros::include_scaffolding!("calc");
