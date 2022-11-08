@@ -12,3 +12,8 @@ license = "MIT"
 crate-type = ["cdylib"]
 
 [dependencies]
+uniffi = "0.21.0"
+uniffi_macros = "0.21.0"
+
+[build-dependencies]
+uniffi_build = {version = "0.21.0", features = [ "builtin-bindgen" ]}
